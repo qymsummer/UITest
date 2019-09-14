@@ -1,0 +1,67 @@
+package com.imooc.web;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumOne {
+	WebDriver driver;
+	
+	public WebDriver InitDriver() {
+		
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		// TODO Auto-generated method stub
+		driver.get("http://www.imooc.com");
+		driver.findElement(By.className("js-close-september")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//driver.close();
+		return driver;
+	}
+	public void GetElement(){
+		driver.findElement(By.id("js-signin-btn")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.findElement(By.name("email")).sendKeys("13572562741");
+		driver.findElement(By.className("js-loginPassword")).sendKeys("qym11456788");
+		
+		WebElement nodeElement = driver.findElement(By.className("rlf-autoin"));
+		nodeElement.findElement(By.tagName("input")).click();
+		
+		List<WebElement> ButtonElement = driver.findElements(By.className("rlf-group"));
+		ButtonElement.get(4).click();
+		
+		driver.findElement(By.linkText("找回密码")).click();
+		driver.findElement(By.partialLinkText("无法")).click();
+		//手机登录
+		driver.findElement(By.xpath("//*[@id=\"signin\"]/div[3]/div[1]/span")).click();
+		//获取验证码
+		driver.findElement(By.cssSelector("#signup-form > div.rlf-group.pr.phoneVerityBox > p.reSend.pa.active.js-phonecode-box > span")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.close();
+	}
+	public static void main(String[] args) {
+
+		SeleniumOne selenium_one = new SeleniumOne();
+		selenium_one.InitDriver();
+		selenium_one.GetElement();
+	}
+
+}

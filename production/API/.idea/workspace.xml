@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df9962a8-0173-4171-b5dd-3aeed3cdbb53" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PlHEgdFC0oobSQNOmkSyag147U" />
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/Charpter1/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Charpter1/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.course.httpclient.cookies" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.course.mode" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\软件\API\Charpter1\src\main\resources" />
+      <recent name="C:\软件\API\Charpter7\src\main\java\com\course\httpclient\cookies" />
+      <recent name="C:\软件\API\Chapter6\src\main\com\course\httpclient\cookies" />
+      <recent name="C:\软件\API\Chapter6\src\target" />
+      <recent name="C:\软件\API\Chapter6\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.course.mode" />
+      <recent name="com.course.httpclient.cookies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\软件\API\Chapter6\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.Login.postTest">
+    <configuration name="C:/软件/API/Chapter6/src/main/resources/index.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Chapter6/src/main/resources/index.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/软件/API/Charpter1/src/main/resources/index.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Charpter1 (1)" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Charpter1/src/main/resources/index.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginAPI.postTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Charpter1 (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.mode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.mode" />
+      <option name="MAIN_CLASS_NAME" value="com.course.mode.LoginAPI" />
+      <option name="METHOD_NAME" value="postTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginAPI.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Chapter6 (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.httpclient.cookies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java" />
+      <option name="MAIN_CLASS_NAME" value="com.course.httpclient.cookies.LoginAPI" />
+      <option name="METHOD_NAME" value="postTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Charpter1 (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.course.mode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.course.mode" />
+      <option name="MAIN_CLASS_NAME" value="com.course.mode.Login" />
+      <option name="METHOD_NAME" value="postTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Login.postTest" />
+        <item itemvalue="TestNG.LoginAPI.postTest (1)" />
+        <item itemvalue="TestNG.C:/软件/API/Charpter1/src/main/resources/index.xml" />
+        <item itemvalue="TestNG.C:/软件/API/Chapter6/src/main/resources/index.xml" />
+        <item itemvalue="TestNG.LoginAPI.postTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df9962a8-0173-4171-b5dd-3aeed3cdbb53" name="Default Changelist" comment="" />
+      <created>1566441652279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566441652279</updated>
+    </task>
+    <servers />
+  </component>
+</project>

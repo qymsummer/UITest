@@ -1,0 +1,29 @@
+package com.imooc.web;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumAction {
+	public WebDriver driver;
+	public void InitDriver() {
+		driver = new ChromeDriver();
+		driver.get("http://www.imooc.com");
+	}
+	public void InputElement() {
+		WebElement EmailElement = driver.findElement(By.name("email"));
+		EmailElement.sendKeys("13572562741");
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		EmailElement.clear();
+		String UserInfo = EmailElement.getAttribute("placeholder");
+		System.out.println(UserInfo);
+		
+	}	
+}
+

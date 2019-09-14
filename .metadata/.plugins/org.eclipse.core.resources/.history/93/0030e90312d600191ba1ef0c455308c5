@@ -1,0 +1,59 @@
+package com.imooc.web;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class SeleniumOne {
+	WebDriver driver;
+	
+	public void InitDriver() {
+		
+		driver = new ChromeDriver();
+		// TODO Auto-generated method stub
+		driver.get("http://www.imooc.com");
+		driver.findElement(By.className("js-close-september")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//driver.close();
+	}
+	public void GetElement(){
+		driver.findElement(By.id("js-signin-btn")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.findElement(By.name("email"));
+		driver.findElement(By.className("js-loginPassword"));
+		WebElement NodeElement = driver.findElement(By.className("rlf-autoin"));
+		NodeElement.findElement(By.tagName("input"));
+		WebElement ButtonElement = driver.findElement(By.className("rlf-group"));
+		((WebDriver) ButtonElement).get(5).click();
+		driver.findElement(By.linkText("ÕÒ»ØÃÜÂë")).click();
+		driver.findElement(By.xpath("//*[@id=\"signin\"]/div[3]/div[1]/span")).click();
+		driver.findElement(By.className("#signup-form > div.rlf-group.pr.phoneVerityBox > p.reSend.pa.active.js-phonecode-box > span")).click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.close();
+	}
+	public static void main(String[] args) {
+
+		SeleniumOne selenium_one = new SeleniumOne();
+		selenium_one.InitDriver();
+		selenium_one.GetElement();
+	}
+
+}
